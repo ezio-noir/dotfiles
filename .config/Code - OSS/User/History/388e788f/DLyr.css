@@ -1,0 +1,33 @@
+#window {
+    background: transparent;
+    color: rgb(--wofi-rgb-color2);
+    font-family: 'JetBrainsMono Nerd Font Mono';
+}
+
+#outer-box {
+    border-radius: 10px;
+    background-color: rgba(--wofi-rgb-color0, 1);
+    border: 3px solid rgb(--wofi-rgb-color3);
+    padding: 10px;
+}
+
+#input {
+    margin-bottom: 10px;
+    background: transparent;
+    border: 1px solid rgb(--wofi-rgb-color-2);
+}
+
+#entry {
+    border-radius: 8px;
+    margin: 0 2px;
+}
+
+#entry:selected {
+    color: rb(--wofi-rgb-color0);
+    background: rgb(--wofi-rgb-color2);
+}
+
+#inner-box entry {
+    margin-top: 5px;
+    padding: 2px 5px;
+}

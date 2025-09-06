@@ -1,0 +1,104 @@
+@import "nature.css";
+
+@define-color text-color @color-3;
+@define-color text-color-alt @color-1;
+@define-color background-color @color-3;
+@define-color background-color-alt @color-1;
+@define-color border-color @color-3;
+
+* {
+    font-family: 'JetBrainsMono Nerd Font Mono';
+	font-size: 13px;
+	color: @text-color;
+}
+
+window#waybar {
+    background-color: transparent;
+	min-height: 30px;
+}
+
+.modules-left,
+.modules-center,
+.modules-right {
+    margin: 5px 0;
+}
+
+#custom-split {
+    margin: 0 5px;
+}
+
+.modules-left {
+    margin-left: 10px; 
+}
+
+#custom-launcher {
+    padding: 0 8px;
+    border-radius: 9999px;
+}
+
+#custom-launcher:hover {
+    color: @text-color-alt;
+    background-color: @background-color;
+}
+
+#workspaces {
+    background-color: transparent;
+}
+
+#workspaces button {
+    padding: 0 5px;
+    border-radius: 8px;
+    transition: background-color 0.5s ease;
+    border: 1px solid transparent;
+}
+
+#workspaces button:hover {
+    box-shadow: inherit;
+    text-shadow: inherit;
+    padding: 0 5px;
+    background: @background-color-alt;
+    border: 1px solid @border-color;
+}
+
+
+#workspaces button.active {
+    color: @text-color-alt;
+    border-radius: 0;
+    border-bottom-color: @border-color;
+}
+
+#workspaces button.active:hover {
+    border-radius: 8px;
+}
+
+#mpris {
+    font-size: 10px;
+    border-radius: 8px;
+    border-left: 1px solid transparent;
+    border-right: 1px solid transparent;
+}
+
+.modules-right {
+    margin-right: 10px;
+}
+
+/* .modules-right > widget > * {
+    margin-right: 10px;
+} */
+
+.modules-right > widget .module:not(#custom-bracket-left):not(#custom-bracket-right):not(#custom-split) {
+    padding: 0 8px;
+}
+
+.modules-right > widget .module:not(#custom-bracket-left):not(#custom-bracket-right):not(#custom-split):hover {
+    color: @text-color-alt;
+    background: @background-color;
+}
+
+#resource > widget > * {
+    border-radius: 8px;
+}
+
+#util > widget > * {
+    border-radius: 9999px;
+}

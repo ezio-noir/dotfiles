@@ -1,0 +1,25 @@
+2025-09-05 19:56:05.960 [info] Started local extension host with pid 6977.
+2025-09-05 19:56:06.005 [info] Started initializing default profile extensions in extensions installation folder. file:///home/ezio/.vscode-oss/extensions
+2025-09-05 19:56:06.162 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/ezio/.vscode-oss/extensions
+2025-09-05 19:56:06.322 [info] ChatSessionStore: Migrating 0 chat sessions from storage service to file system
+2025-09-05 19:56:09.036 [info] [perf] Render performance baseline is 46ms
+2025-09-05 19:56:09.295 [error] lock() request could not be registered.: InvalidStateError: lock() request could not be registered.
+2025-09-05 19:57:27.462 [warning] Settings pattern "mcp" doesn't match any settings
+2025-09-05 19:57:27.462 [warning] SettingsEditor2: Settings not included in settingsLayout.ts: github.copilot.chat.agent.terminal.allowList, github.copilot.chat.agent.terminal.denyList
+2025-09-05 19:58:42.296 [error] lock() request could not be registered.: InvalidStateError: lock() request could not be registered.
+2025-09-05 20:07:43.466 [error] lock() request could not be registered.: InvalidStateError: lock() request could not be registered.
+2025-09-05 20:09:34.099 [error] lock() request could not be registered.: InvalidStateError: lock() request could not be registered.
+2025-09-05 20:28:59.120 [error] lock() request could not be registered.: InvalidStateError: lock() request could not be registered.
+2025-09-05 20:30:16.359 [error] lock() request could not be registered.: InvalidStateError: lock() request could not be registered.
+2025-09-05 20:30:41.997 [error] lock() request could not be registered.: InvalidStateError: lock() request could not be registered.
+2025-09-05 20:31:33.461 [error] lock() request could not be registered.: InvalidStateError: lock() request could not be registered.
+2025-09-05 20:33:20.143 [error] lock() request could not be registered.: InvalidStateError: lock() request could not be registered.
+2025-09-05 20:50:37.739 [error] lock() request could not be registered.: InvalidStateError: lock() request could not be registered.
+2025-09-05 20:52:43.821 [error] lock() request could not be registered.: InvalidStateError: lock() request could not be registered.
+2025-09-05 20:53:57.046 [error] lock() request could not be registered.: InvalidStateError: lock() request could not be registered.
+2025-09-05 21:08:08.261 [error] lock() request could not be registered.: InvalidStateError: lock() request could not be registered.
+2025-09-05 21:14:24.413 [error] lock() request could not be registered.: InvalidStateError: lock() request could not be registered.
+2025-09-05 21:15:29.550 [error] lock() request could not be registered.: InvalidStateError: lock() request could not be registered.
+2025-09-05 21:17:38.475 [error] lock() request could not be registered.: InvalidStateError: lock() request could not be registered.
+2025-09-05 21:17:49.668 [error] lock() request could not be registered.: InvalidStateError: lock() request could not be registered.
+2025-09-05 21:18:02.592 [error] lock() request could not be registered.: InvalidStateError: lock() request could not be registered.

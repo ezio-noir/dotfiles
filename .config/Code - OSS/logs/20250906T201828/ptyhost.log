@@ -1,0 +1,1 @@
+2025-09-06 20:27:26.206 [error] Failed to set sticky bit on /tmp/ezio-code-oss-zsh: Error: ENOENT: no such file or directory, chmod '/tmp/ezio-code-oss-zsh'

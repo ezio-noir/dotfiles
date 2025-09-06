@@ -1,0 +1,20 @@
+2025-09-06 08:01:09.764 [info] Started local extension host with pid 1707.
+2025-09-06 08:01:12.454 [info] [perf] Render performance baseline is 27ms
+2025-09-06 08:01:13.434 [error] lock() request could not be registered.: InvalidStateError: lock() request could not be registered.
+2025-09-06 08:02:44.843 [error] lock() request could not be registered.: InvalidStateError: lock() request could not be registered.
+2025-09-06 08:12:32.781 [error] lock() request could not be registered.: InvalidStateError: lock() request could not be registered.
+2025-09-06 08:19:28.113 [error] lock() request could not be registered.: InvalidStateError: lock() request could not be registered.
+2025-09-06 08:24:20.470 [error] lock() request could not be registered.: InvalidStateError: lock() request could not be registered.
+2025-09-06 08:29:43.283 [error] lock() request could not be registered.: InvalidStateError: lock() request could not be registered.
+2025-09-06 08:33:32.307 [error] lock() request could not be registered.: InvalidStateError: lock() request could not be registered.
+2025-09-06 08:38:11.304 [error] lock() request could not be registered.: InvalidStateError: lock() request could not be registered.
+2025-09-06 09:49:26.777 [error] lock() request could not be registered.: InvalidStateError: lock() request could not be registered.
+2025-09-06 09:51:58.624 [error] lock() request could not be registered.: InvalidStateError: lock() request could not be registered.
+2025-09-06 09:56:11.853 [error] lock() request could not be registered.: InvalidStateError: lock() request could not be registered.
+2025-09-06 13:32:45.963 [error] lock() request could not be registered.: InvalidStateError: lock() request could not be registered.
+2025-09-06 13:34:41.814 [error] lock() request could not be registered.: InvalidStateError: lock() request could not be registered.
+2025-09-06 13:35:04.433 [error] lock() request could not be registered.: InvalidStateError: lock() request could not be registered.
+2025-09-06 13:35:37.767 [error] lock() request could not be registered.: InvalidStateError: lock() request could not be registered.
+2025-09-06 14:13:23.465 [error] lock() request could not be registered.: InvalidStateError: lock() request could not be registered.
+2025-09-06 14:40:05.153 [error] lock() request could not be registered.: InvalidStateError: lock() request could not be registered.
+2025-09-06 16:33:18.317 [error] lock() request could not be registered.: InvalidStateError: lock() request could not be registered.

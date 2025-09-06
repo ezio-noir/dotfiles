@@ -1,0 +1,5 @@
+2025-09-06 20:18:30.037 [info] Started local extension host with pid 7520.
+2025-09-06 20:18:30.380 [info] ChatSessionStore: Migrating 0 chat sessions from storage service to file system
+2025-09-06 20:18:32.710 [info] [perf] Render performance baseline is 53ms
+2025-09-06 20:18:43.072 [error] lock() request could not be registered.: InvalidStateError: lock() request could not be registered.
+2025-09-06 20:27:32.355 [error] lock() request could not be registered.: InvalidStateError: lock() request could not be registered.

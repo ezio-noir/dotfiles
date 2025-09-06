@@ -1,0 +1,39 @@
+@define-color blue-sky rgb(32, 164, 177);
+@define-color blue-sky-60 rgba(32, 164, 177, 0.6);
+@define-color blue-sky-70 rgba(32, 164, 177, 0.7);
+
+@define-color green-grass-bright rgb(86, 162, 98);
+@define-color green-grass-bright-60 rgba(86, 162, 98, 0.6);
+@define-color green-grass-bright-90 rgba(86, 162, 98, 0.9);
+
+@define-color green-grass-dark rgb(42, 117, 86);
+
+@define-color yellow rgb(255, 235, 145);
+
+@define-color white-cloud rgb(255, 255, 255);
+@define-color white-cloud-60 rgba(255, 255, 255, 0.6);
+@define-color white-cloud-70 rgba(255, 255, 255, 0.7);
+
+@define-color red rgb(255, 0, 0);
+@define-color red-50 rgba(255, 0, 0, 0.5);
+
+@define-color green rgb(0, 255, 0);
+@define-color green-50 rgba(0, 255, 0, 0.5);
+
+@define-color orange rgb(255, 191, 0);
+@define-color orange-50 rgba(255, 191, 0, 0.5);
+@define-color orange-80 rgba(255, 191, 0, 0.8);
+
+@define-color text-light @white-cloud;
+@define-color text-dark @blue-sky;
+@define-color bg-light @white-cloud-60;
+@define-color bg-secondary @green-grass-bright-60;
+@define-color bg-tertiary @green-grass-bright-90;
+@define-color bg-dark @blue-sky-60;
+@define-color bd-light @white-cloud-70;
+@define-color bd-secondary @yellow;
+@define-color bd-dark @blue-sky-70;
+@define-color critical @red-50;
+@define-color warning @orange-50;
+@define-color safe @green-50;
+
