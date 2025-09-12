@@ -6,6 +6,9 @@
         "workspaces": [],
         "folders": [
             {
+                "folderUri": "file:///home/ezio/.config"
+            },
+            {
                 "folderUri": "file:///home/ezio/dotfiles"
             }
         ],
@@ -16,7 +19,8 @@
         "workspaces": {
             "file:///home/ezio/.config": "__default__profile__",
             "file:///home/ezio/.config/waybar": "__default__profile__",
-            "file:///home/ezio/dotfiles": "__default__profile__"
+            "file:///home/ezio/dotfiles": "__default__profile__",
+            "file:///home/ezio/.config/fastfetch": "__default__profile__"
         },
         "emptyWindows": {}
     },
@@ -38,6 +42,16 @@
             "statusBarBackground": "#181818",
             "statusBarBorder": "#2b2b2b",
             "statusBarNoFolderBackground": "#1f1f1f"
+        },
+        "layoutInfo": {
+            "sideBarSide": "left",
+            "editorPartMinWidth": 220,
+            "titleBarHeight": 35,
+            "activityBarWidth": 48,
+            "sideBarWidth": 170,
+            "auxiliaryBarWidth": 0,
+            "statusBarHeight": 22,
+            "windowBorder": false
         }
     },
     "windowSplashWorkspaceOverride": {
@@ -45,7 +59,15 @@
             "sideBarWidth": 170,
             "auxiliaryBarWidth": 300,
             "workspaces": {
+                "a644234d38898781ddde9014acd4cd31": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
                 "0a45129414c481fd1fff17877a2f1a6f": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "93bf996f468c812fc9f164315363d47c": {
                     "sideBarVisible": true,
                     "auxiliaryBarVisible": false
                 },
@@ -61,12 +83,11 @@
             "folder": "file:///home/ezio/dotfiles",
             "backupPath": "/home/ezio/.config/Code - OSS/Backups/a25a6a5a0b5fe457a3c96bcd93f862d3",
             "uiState": {
-                "mode": 3,
-                "display": 60,
-                "width": 768,
-                "height": 826,
+                "mode": 0,
                 "x": 0,
-                "y": 0
+                "y": 0,
+                "width": 1536,
+                "height": 864
             }
         },
         "openedWindows": []

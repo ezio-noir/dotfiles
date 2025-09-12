@@ -1,0 +1,6 @@
+2025-09-08 12:55:15.716 [info] Started local extension host with pid 5459.
+2025-09-08 12:55:18.331 [info] [perf] Render performance baseline is 25ms
+2025-09-08 13:04:07.251 [error] lock() request could not be registered.: InvalidStateError: lock() request could not be registered.
+2025-09-08 13:10:19.710 [error] lock() request could not be registered.: InvalidStateError: lock() request could not be registered.
+2025-09-08 14:08:39.396 [error] lock() request could not be registered.: InvalidStateError: lock() request could not be registered.
+2025-09-08 14:24:56.534 [error] lock() request could not be registered.: InvalidStateError: lock() request could not be registered.

@@ -1,0 +1,105 @@
+//   _____ _____ _____ _____ _____ _____ _____ _____ _____ 
+//  |   __|  _  |   __|_   _|   __|   __|_   _|     |  |  |
+//  |   __|     |__   | | | |   __|   __| | | |   --|     |
+//  |__|  |__|__|_____| |_| |__|  |_____| |_| |_____|__|__|  NYARCH
+//
+//  by Bina
+
+                                                       
+{
+    "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+    "logo": {
+	    "source": "~/Pictures/minion_hitman.png",
+	    "type": "kitty",
+	    "height": 14,
+	    "padding": {
+		    "top": 1
+	    }
+    },
+    "display": {
+        "separator": " ",
+        "percent": {
+            "type": ["num", "bar"],
+        }
+    },
+    "modules": [
+        "break",
+        "break",
+        "break",
+        {
+            "type": "title",
+            "keyWidth": 10
+        },
+        {
+            "type": "custom",
+            "format": "~~~~~~~~~~~~~~~~~~~~~~~~~~",
+        },
+        {
+            "type": "os",
+            "key": "󰣇 ",
+            "keyColor": "dim_cyan",  // = color4
+            "format": "{name}",
+        },
+        {
+            "type": "kernel",
+            "key": " ",
+            "keyColor": "dim_cyan",
+        },
+        {
+            "type": "packages",
+            "format": "{#blink_magenta}{pacman}{#} ({#italic_}pacman{#})",
+            "key": "󰏖 ",
+            "keyColor": "dim_cyan",
+        },
+        {
+            "type": "shell",
+            "key": " ",
+            "keyColor": "dim_cyan",
+            "format": "{} {#italic_}{version}{#}",
+        },
+        {
+            "type": "terminal",
+            "key": " ",
+            "keyColor": "dim_cyan", 
+            "format": "{} {#italic_}{version}{#}",
+        },
+        {
+            "type": "wm",
+            "key": " ",
+            "keyColor": "dim_cyan", 
+        },
+        {
+            "type": "cpu",
+            "key": " ",
+            "keyColor": "dim_cyan",
+            "format": "{name}"
+        },
+        {
+            "type": "gpu",
+            "key": "󰢮 ",
+            "keyColor": "dim_cyan",
+        },
+        {
+            "type": "memory",
+            "key": " ",
+            "keyColor": "dim_cyan", 
+            // "format": "{#blink_magenta}{used}{#}/{#green}{total}{#} {percentage-bar}",
+            "format": "{percentage-bar} {#blink_cyan}{used}{#}/{#green}{total}{#}",
+            "percent": {
+                "green": 50,
+                "yellow": 80
+            }
+        },
+        {
+            "type": "disk",
+            "key": "󰋊 ",
+            "keyColor": "dim_cyan",
+            "format": "{size-percentage-bar} {#blink_magenta}{size-used}{#}/{#green}{size-total}{#}",
+            "percent": {
+                "green": 30,
+                "yellow": 60
+            }
+        },
+        "break",
+    ]
+}

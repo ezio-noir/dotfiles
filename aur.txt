@@ -1,6 +1,7 @@
 clipse
 clipse-debug
 otf-departure-mono
+vesktop
+vesktop-debug
 yay-bin
 yay-bin-debug
-zen-browser-bin

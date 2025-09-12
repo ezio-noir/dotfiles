@@ -1,0 +1,12 @@
+2025-09-08 10:11:27.987 [info] Extension host with pid 25058 started
+2025-09-08 10:11:27.987 [info] Skipping acquiring lock for /home/ezio/.config/Code - OSS/User/workspaceStorage/3c3dd24a5531bcff9618f99928f2adfb.
+2025-09-08 10:11:28.236 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-09-08 10:11:28.506 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-09-08 10:11:28.510 [info] ExtensionService#_doActivateExtension vscode.terminal-suggest, startup: false, activationEvent: 'onTerminalShellIntegration:*'
+2025-09-08 10:11:28.588 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-09-08 10:11:28.647 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-09-08 10:11:28.795 [info] Eager extensions activated
+2025-09-08 10:11:28.801 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-09-08 10:11:28.804 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-09-08 10:15:53.094 [info] Extension host terminating: renderer closed the MessagePort
+2025-09-08 10:15:53.105 [info] Extension host with pid 25058 exiting with code 0
